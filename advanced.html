@@ -13,7 +13,8 @@
         <a href="services.html">SERVICES</a>
       </div>
     </nav>
-    <p style="clear:both;"></p>
+    <p style="clear:right;">Clear:Both</p>
+
     <h2>Points of Explanation</h2>
     <ul>
       <li>Header Tag and Use</li>
@@ -47,8 +48,18 @@ Chel: Surely not,, bt I'm hoping i can check my mail and trace the email to find
 to you. But for now,, u can jst download the ide and familarise with it. <br>
 Tobi:ok no qualms <br>
 Chel: Yhh,, Also , we should go throught all this code but for u to understand in depth,, u would need to look
-at it urself also. The main new concept is just Linking between pages to form a collection of webpages
+at it urself also. The main new concept is just Linking between pages to form a collection of webpages <br>
 Toby:yeah thats the main issue,,let me glance through <br>
+Toby:sorry whats the <div></div> again,,i dont really get its own tag ? <br>
+Chel: Div is a tag used for outlining elements structurally. If u want a group of paragraph
+tags to be styled together,, u can enclose them with a div tag and instead style "only" the div
+and it applies to every thing inside. And note,, not jst p tag, anything can be inside a div tag.  <br>
+Toby:yeah i now understand,,does it have a full meaning <br>
+Chel: No,, just div ,, that;s the name <br>
+Toby:ok let me check out the code <br>
+Chel: Is ur html preview on?
+Toby:yeah it is,,this once are understandable,,a little practice shud do,,
+
 
 
     <h4>Header Tag and Use</h4>
@@ -77,6 +88,11 @@ Toby:yeah thats the main issue,,let me glance through <br>
       <li>A or anchor tag is used to link to the pages contained in your website</li>
     </ul>
 
+
+    <h3>Video and Audio Tags</h3>
+    Video and Audio tags are quite straightforward to use and understand
+
+
     <h3>Ways of Adding Colors with Css</h3>
     <p>There are three main ways of adding colors using CSS to an html element
     <ul>
@@ -85,14 +101,26 @@ Toby:yeah thats the main issue,,let me glance through <br>
       p{
         color: red;
       }
-      <li>Using The Hex-Values of Adding Color. This method offers more color ranges and combinations
+      <li>Using The Hexadecimal-Values of Adding Color. They are written in the following format: #rrggbb.
+        Where rr,gg and bb are values between 00 and ff. rr-the amount of red, gg-the amount of green,bb-the amount of blue.
+        00 is the lowest and ff is the highest . #000000 forms black , and #FFFFFF forms white. This method offers more color ranges and combinations
         <b>Example</b>
         p{
-          color: #696969;
+          color: #696969;  This would form grayish color when applied to an html element
         }
       </li>
+      <li>The last way to give html elements color is using RGBA syntax. This one is more straight-forward than the hex-values
+      In rgb, r is red, g is green, b is blue and a is alpha. which means the intensity of the specified color. Do u want it to be totally transparent or
+    opaque,, that's what aplha means. it's a number between 0.0 and 1.0. For the rgb values, 0 depicts the lowest intensity and
+  255 the highest. The format for writing colors with rgba is rgba(r,g,b,a) where rgb can be any values between0 and 255 and a values
+between 0.0 and 1.0.
+      <b>Examples</b>
+      p{
+        color: rgba(255,153,63,0.5)
+      }
+</li>
     </ul>
-
+    And those are all the ways you can define html colors using CSS.
     </p>
   </body>
 </html>
