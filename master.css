@@ -5,7 +5,19 @@
   content: "\f107";
 }
 
-
+.navbar-custom {
+  background-color: red;
+}
+.navbar-custom div a {
+  color: white;
+}
+.page-form {
+  background-color: lightblue;
+}
+.radio {
+  font-size: 9px;
+  margin: 5px;
+}
 
 /* nav {
   font-size: 19px;
