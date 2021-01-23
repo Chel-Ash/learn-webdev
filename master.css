@@ -1,4 +1,13 @@
-nav {
+.dropdown-toggle-angle::after {
+  display: inline-block;
+  padding: 0.5rem;
+  font: normal normal normal 19px/0 FontAwesome;
+  content: "\f107";
+}
+
+
+
+/* nav {
   font-size: 19px;
   background-color: #24BCF9;
   padding: 25px;
@@ -40,4 +49,4 @@ p {
 .services-list {
   color: blue;
   font-size: 20px;
-}
+} */
